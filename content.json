@@ -374,7 +374,7 @@
   "backend": {
     "enabled": true,
     "provider": "cloudflare",
-    "workerUrl": "https://shop.<your-subdomain>.workers.dev",
+    "workerUrl": "https://shop.imprakashlal.workers.dev",
     "supabaseUrl": "",
     "anonKey": "",
     "accounts": true,
