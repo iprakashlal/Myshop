@@ -378,8 +378,8 @@
     "supabaseUrl": "",
     "anonKey": "",
     "accounts": true,
-    "wishlist": false,
-    "requireLogin": false
+    "wishlist": true,
+    "requireLogin": true
   },
   "accountPage": {
     "title": "Your account",
