@@ -1,23 +1,35 @@
 {
   "theme": {
-    "bg": "#FAF7F2",
-    "surface": "#FFFFFF",
-    "text": "#1B1A17",
-    "soft": "#6B665D",
-    "line": "#E7E1D6",
-    "accent": "#1F4D3A",
-    "accent2": "#E9B949",
-    "sale": "#B4441B",
-    "fontDisplay": "Fraunces",
-    "fontBody": "Manrope",
-    "radius": 14
+    "bg": "#0F1B26",
+    "surface": "#162636",
+    "text": "#EAF4FB",
+    "soft": "#9BB4C7",
+    "line": "#2A4256",
+    "accent": "#A5D8FF",
+    "accent2": "#C3F0CA",
+    "sale": "#FFB4A2",
+    "fontDisplay": "Sora",
+    "fontBody": "Inter",
+    "radius": 24,
+    "preset": "glacier",
+    "layout": "center",
+    "nav": "float",
+    "cards": "glass",
+    "buttons": "glow",
+    "motionStyle": "blur",
+    "pattern": "none",
+    "ornament": "soft",
+    "heading": "tight",
+    "shead": "dot",
+    "width": "normal",
+    "grid": "3",
+    "product": "overlay",
+    "deep": "#0A121A"
   },
   "brand": {
     "name": "Fieldnote Goods",
     "tagline": "Small-batch goods for slow mornings",
-    "logo": {
-      "path": "assets/uploads/1793953850754-2d19c5aa-14c7-4fd6-a856-7e056ce63d9d.png"
-    },
+    "logo": null,
     "announcement": "Free shipping on orders over ₹1,999",
     "showAnnouncement": true
   },
@@ -362,7 +374,7 @@
   "backend": {
     "enabled": true,
     "provider": "cloudflare",
-    "workerUrl": "https://shop.imprakashlal.workers.dev/",
+    "workerUrl": "https://shop.<your-subdomain>.workers.dev",
     "supabaseUrl": "",
     "anonKey": "",
     "accounts": true,
